@@ -1,0 +1,80 @@
+body{
+  background-color: #40DFEF;
+  text-align: center;
+  padding-top: 100px;
+  position : relative;
+  font-family:'Cookie', cursive;
+  font-size: 50px;;
+}
+h1{
+  font-size : 100px;
+}
+h3{
+  font-weight: normal;
+}
+.top-cloud{
+      position: absolute;
+      top: 10%;
+      right: 65%;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 70%;
+  top: 7%;
+}
+.my-photo{
+  height:300px;
+  width: 300px;
+}
+.mern-image{
+  height: 300px;
+  width: 300px;
+  float : left;
+}
+.skill-image{
+  height: 300px;
+  width: 250px;
+  float : right;
+}
+.skill-row{
+  width : 800px;
+  margin : 100px auto 100px auto;
+}
+.profile{
+  width : 800px;
+  margin : 100px auto 100px auto;
+}
+hr{
+  width : 100px;
+  border-top: dotted ;
+  color : grey;
+  margin : 150px auto ;
+}
+.footer-link{
+  color: #0F00FF;
+  text-decoration: none;
+}
+.footer-link {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Cookie', cursive;
+  color: #0F00FF;
+  font-size: 30px;
+  background: #03d5ff;
+  padding: 0px 20px 0px 20px;;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.paragraph{
+  text-align: left;
+}
